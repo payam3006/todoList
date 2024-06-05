@@ -1,0 +1,66 @@
+body {
+  /*use 100vh for mobile responsive
+Ahmad!!!*/
+  height: 100dvh;
+
+  /* How TO - Disable Text Selection */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* font-size: larger; */
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightgray;
+  /* color: white; */
+}
+/* prevent Refresh on touchDown */
+/* body {
+  overscroll-behavior: contain;
+} */
+h1 {
+  font-size: 4rem;
+  color: rgb(138, 43, 226, 0.6);
+}
+p {
+  margin: 0;
+  text-align: center;
+  font-size: x-small;
+  color: gray;
+}
+.guide {
+  margin-top: 40px;
+}
+.main {
+  box-shadow: 0 5px 10px gray;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  padding: 0px 10px;
+  border: none;
+}
+.todo {
+  width: 250px;
+  height: 40px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-top: 1px solid gray;
+  cursor: pointer;
+}
+input:focus {
+  outline: 1px solid blueviolet;
+}
+.do {
+  text-decoration: line-through;
+  color: gray;
+}
